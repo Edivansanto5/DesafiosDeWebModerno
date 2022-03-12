@@ -6,13 +6,14 @@
     tipo console.log(b) = 4
     será que vc consegue?
 */
-let a = 4; // podem ser var, mais nunca const
+let a = 42; // podem ser var, mais nunca const
 let b = 5;
+let temporaria = a
 console.log('numero a = ' + a);
 console.log('numero b = ' + b);
 
 console.log('')
 a = b;
-b = a;
+b = temporaria;
 console.log('numero a = ' + a);
 console.log('numero b = ' + b);
